@@ -1,4 +1,4 @@
-//programer names: Amal Jaraisy , Aseel Monther
+//programer name: Amal Jaraisy
 
 //in this program we will read 10 files and print 
 // the content of each file according to the file number
