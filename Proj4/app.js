@@ -1,13 +1,12 @@
-// Load Node's built-in modules (no installation needed)
-// http - lets us create a web server
-// fs   - (File System) lets us read files from the computer
+//Programmer name : amal jaraisy
+// app.js is the server of the website.
+// When you open a page in the browser, the server finds the right file and sends it.
+// "/" = home page, "/about" = about page, "/contact" = contact page.
+// If the page doesn't exist, it shows "Page not found".
+// Run it with "node app.js" and open http://localhost:3000
 const http = require('http');
 const fs = require('fs');
 
-// Create the server.
-// The function runs every time the browser sends a request.
-// req (request)  - what the browser asked for (req.url is the address, e.g. "/about")
-// res (response) - what the server sends back to the browser
 const server = http.createServer((req, res) => {
   let file; // will hold the path of the file to send
 
