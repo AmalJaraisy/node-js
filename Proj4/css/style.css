@@ -1,0 +1,40 @@
+/* External CSS file - all pages link to it with <link rel="stylesheet" href="/css/style.css"> */
+
+/* The whole page: no default margin, font, light gray background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Navigation bar (dark background) - applies only to a <nav> element */
+nav {
+  background-color: #333;
+  padding: 15px;
+}
+
+/* Links inside <nav>: white, no underline, space between them */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Link inside <nav> turns green when the mouse is over it */
+nav a:hover {
+  color: #4caf50;
+}
+
+/* White box in the middle of the page with the page content */
+.content {
+  background-color: white;
+  margin: 30px auto;   /* auto = center horizontally */
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+/* Page titles in green */
+h1 {
+  color: #4caf50;
+}
