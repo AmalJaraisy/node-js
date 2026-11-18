@@ -36,7 +36,7 @@ const server = http.createServer((req, res) => {
   res.end(fs.readFileSync(__dirname + '/' + file));
 });
 
-// Start the server on port 3000 (open http://localhost:3000 in the browser)
+// Start the server on port 3000 
 server.listen(3000, () => {
   console.log('Server running on http://localhost:3000');
 });
